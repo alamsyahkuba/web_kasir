@@ -251,12 +251,10 @@
                                         });
                                     });
                                 });
-                            },
-                            didOpen: () => {
                                 document.getElementById('cancelButton').addEventListener('click', function() {
                                     Swal.close();
                                 });
-                            }
+                            },
                         });
                     } else {
                         Swal.fire({
